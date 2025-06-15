@@ -1,10 +1,10 @@
 <h1 align="center">Luchas de Sumobots V2</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/natemodelo82/control?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/natemodelo82/control?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/natemodelo82/control?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/natemodelo82/control?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/natemodelo82/Luchas-Sumobots-V2?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/natemodelo82/Luchas-Sumobots-V2?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/natemodelo82/Luchas-Sumobots-V2?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/natemodelo82/Luchas-Sumobots-V2?color=56BEB8">
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
   <a href="#white_check_mark-requirements">Requerimientos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Inicio</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/natemodelo82" target="_blank">Informática Empresarial, Ciberseguridad e Informática en Desarrollo Web, CTP Oreamuno, Cartago</a>
+  <a href="https://github.com/natemodelo82" target="_blank">NateModelo82</a>
 </p>
 
 <br>
@@ -27,7 +27,7 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 
 :heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots.\
 :heavy_check_mark: 2- Diseño de reglas de competencia.\
-:heavy_check_mark: 3- Codificación de un control para manejar los sumobots.
+:heavy_check_mark: 3- Codificación de un Luchas-Sumobots-V2 para manejar los sumobots.
 
 ## :rocket: Technologies ##
 
