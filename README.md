@@ -1,4 +1,4 @@
-<h1 align="center">Control</h1>
+<h1 align="center">Luchas de Sumobots V2</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/natemodelo82/control?color=56BEB8">
@@ -8,49 +8,49 @@
 </p>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#dart-about">Acerca del proyecto</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Características</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Tecnologías</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requerimientos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Inicio</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/natemodelo82" target="_blank">Author</a>
+  <a href="https://github.com/natemodelo82" target="_blank">Informática Empresarial, Ciberseguridad e Informática en Desarrollo Web, CTP Oreamuno, Cartago</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: Acerca del proyecto ##
 
-Describe your project
+Este proyecto pretende diseñar una implementación para habilitar a los Sumobots para una competencia de Luchas de Robots
 
-## :sparkles: Features ##
+## :sparkles: Características ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots. 
+:heavy_check_mark: 2- Diseño de reglas de competencia.
+:heavy_check_mark: 3- Codificación de un control para manejar los sumobots.
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Circuit Python](https://circuitpython.org/)
+- [Esp Now](https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/)
+- [Ideaboard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki)
+- [Sumobots Universidad Cenfotec](https://github.com/Universidad-Cenfotec/Sumobot)
+- [Diseño de Luchas de Robots](#)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Circuit Python](https://circuitpython.org/) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/natemodelo82/control
+$ git clone https://github.com/natemodelo82/Luchas-Sumobots-V2
 
 # Access
-$ cd control
+$ cd Luchas-Sumobots-V2
 
 # Install dependencies
 $ yarn
