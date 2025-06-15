@@ -45,7 +45,7 @@ El arma de lucha se debe instalar en la parte trasera del Sumobot y ajustarse co
 En cuanto al código, este fue programado en CircuitPython, utilizando la herramienta Thonny.\
 Se crearon dos módulos principales, uno para el control remoto y otro para el Sumobot.\
 \
-Código Control remoto:\
+##Código Control remoto:
 ```
 from ideaboard import IdeaBoard
 from time import sleep
