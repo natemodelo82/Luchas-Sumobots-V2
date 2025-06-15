@@ -38,6 +38,15 @@ __Martillo:__\
 El arma de lucha se debe instalar en la parte trasera del Sumobot y ajustarse con gazas plásticas.\
 ![sumolucha2](https://github.com/user-attachments/assets/20fec52a-b542-4dfe-ae99-c59d87a886b8)\
 \
+__Circuito para el control:__\
+![controlIB_bb](https://github.com/user-attachments/assets/56f93af5-e2bf-400e-9bea-a90b8079807b)
+\
+\
+__Circuito para el Sumobot:__\
+![sumo_lucha](https://github.com/user-attachments/assets/af9e9147-66fa-4b64-8432-643cde02e0bd)
+\
+\
+
 :heavy_check_mark: 2- Diseño de reglas de competencia:\
 
 \
