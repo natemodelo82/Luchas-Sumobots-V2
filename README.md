@@ -25,7 +25,7 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 
 ## :sparkles: Características ##
 
-:heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots:\
+:heavy_check_mark: __1- Diseño de armas adaptables en los Sumobots:__\
 Para las armas adaptables a los Sumobots se han diseñado inicialmente 2, una para usar con una cuerda y un peso y otra para usar como un martillo.\
 \
 __Cadena:__\
@@ -47,10 +47,10 @@ __Circuito para el Sumobot:__\
 \
 \
 
-:heavy_check_mark: 2- Diseño de reglas de competencia:\
+:heavy_check_mark: __2- Diseño de reglas de competencia:__\
 
 \
-:heavy_check_mark: 3- Codificación de un Luchas-Sumobots-V2 para manejar los sumobots:\
+:heavy_check_mark: __3- Codificación de un Luchas-Sumobots-V2 para manejar los sumobots:__\
 En cuanto al código, este fue programado en CircuitPython, utilizando la herramienta Thonny.\
 Se crearon dos módulos principales, uno para el control remoto y otro para el Sumobot.\
 \
