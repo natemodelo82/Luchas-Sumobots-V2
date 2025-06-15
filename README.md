@@ -66,7 +66,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 
-Made with :heart: by <a href="https://github.com/natemodelo82" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://ctpo.info" target="_blank">Informática CTP Oreamuno, Cartago.</a>
 
 &#xa0;
 
