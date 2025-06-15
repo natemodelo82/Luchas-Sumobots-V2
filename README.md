@@ -25,8 +25,8 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 
 ## :sparkles: Características ##
 
-:heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots. 
-:heavy_check_mark: 2- Diseño de reglas de competencia.
+:heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots.\ 
+:heavy_check_mark: 2- Diseño de reglas de competencia.\
 :heavy_check_mark: 3- Codificación de un control para manejar los sumobots.
 
 ## :rocket: Technologies ##
