@@ -14,7 +14,7 @@
   <a href="#white_check_mark-requirements">Requerimientos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Inicio</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/natemodelo82" target="_blank">NateModelo82</a>
+  <a href="https://ctpo.info" target="_blank">CTP Oreamuno</a>
 </p>
 
 <br>
@@ -25,11 +25,20 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 
 ## :sparkles: Características ##
 
-:heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots.\
-:heavy_check_mark: 2- Diseño de reglas de competencia.\
-:heavy_check_mark: 3- Codificación de un Luchas-Sumobots-V2 para manejar los sumobots.
+###:heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots:\
+Para las armas adaptables a los Sumobots se han diseñado inicialmente 2, una para usar con una cuerda y un peso y otra para usar como un martillo.
+####Cadena:
 
-## :rocket: Technologies ##
+####Martillo:
+
+\
+###:heavy_check_mark: 2- Diseño de reglas de competencia:\
+
+\
+###:heavy_check_mark: 3- Codificación de un Luchas-Sumobots-V2 para manejar los sumobots:\
+
+
+## :rocket: Tecnologías ##
 
 The following tools were used in this project:
 
