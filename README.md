@@ -26,11 +26,11 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 ## :sparkles: Características ##
 
 :heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots:\
-Para las armas adaptables a los Sumobots se han diseñado inicialmente 2, una para usar con una cuerda y un peso y otra para usar como un martillo.
-###Cadena:
-
-###Martillo:
-
+Para las armas adaptables a los Sumobots se han diseñado inicialmente 2, una para usar con una cuerda y un peso y otra para usar como un martillo.\
+Cadena:\
+![cadena](https://github.com/user-attachments/assets/a1d2aff8-8465-49fd-8526-d9fbf55dbb37)\
+Martillo:\
+![martillo](https://github.com/user-attachments/assets/45f0744f-5cc6-453e-9ee2-9dcb7221b9e8)\
 \
 :heavy_check_mark: 2- Diseño de reglas de competencia:\
 
