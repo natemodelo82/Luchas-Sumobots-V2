@@ -27,16 +27,85 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 
 :heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots:\
 Para las armas adaptables a los Sumobots se han diseñado inicialmente 2, una para usar con una cuerda y un peso y otra para usar como un martillo.\
+\
 Cadena:\
 ![cadena](https://github.com/user-attachments/assets/a1d2aff8-8465-49fd-8526-d9fbf55dbb37)\
+\
+\
 Martillo:\
 ![martillo](https://github.com/user-attachments/assets/45f0744f-5cc6-453e-9ee2-9dcb7221b9e8)\
+\
+El arma de lucha se debe instalar en la parte trasera del Sumobot y ajustarse con gazas plásticas.\
+![sumolucha2](https://github.com/user-attachments/assets/20fec52a-b542-4dfe-ae99-c59d87a886b8)\
 \
 :heavy_check_mark: 2- Diseño de reglas de competencia:\
 
 \
 :heavy_check_mark: 3- Codificación de un Luchas-Sumobots-V2 para manejar los sumobots:\
+En cuanto al código, este fue programado en CircuitPython, utilizando la herramienta Thonny.\
+Se crearon dos módulos principales, uno para el control remoto y otro para el Sumobot.\
+\
+Código Control remoto:\
+```
+from ideaboard import IdeaBoard
+from time import sleep
+import board
+import sys
+import espnow #libreria para comunicarse con otro IdeaBoard
+import keypad
 
+mac_x = b'\x08:\x8d\x8e3\xc0'
+mac_z = b'\x80do\x110<'
+
+
+mac_a = b'\x08:\x8d\x8e4h'
+mac_b = b'\x80do\x10\xf6\xc0'
+sumo1 = mac_z
+
+
+tiempoEspera = 0.1
+tiempoInicio = 1
+
+ib = IdeaBoard()
+e = espnow.ESPNow()
+sumobot = espnow.Peer(mac=sumo1)
+e.peers.append(sumobot)
+
+#botones            Golpe          derecha     abajo      izquierda     arriba
+keys = keypad.Keys((board.IO27, board.IO33, board.IO32, board.IO25, board.IO26,), value_when_pressed=False, pull=True)
+
+#
+#Envia un mensaje al otro Ideaboard usando el protocolo espnow
+def enviarMensajeSumobot(mensaje):
+    e.send(mensaje)
+
+sleep(tiempoInicio)
+
+while True:
+    
+    event = keys.events.get()
+    if event:
+        if event.pressed:
+            if (event.key_number == 4):
+                print("Arriba")
+                enviarMensajeSumobot("arriba")
+            if (event.key_number == 2):
+                print("Abajo")
+                enviarMensajeSumobot("abajo")
+            if (event.key_number == 3):
+                print("Izquierda")
+                enviarMensajeSumobot("izquierda")
+            if (event.key_number == 1):
+                print("Derecha")
+                enviarMensajeSumobot("derecha")
+            if (event.key_number == 0):
+                print("Rojo")
+                enviarMensajeSumobot("rojo")
+                
+            print(event)
+
+    sleep(tiempoEspera)
+```    
 
 ## :rocket: Tecnologías ##
 
