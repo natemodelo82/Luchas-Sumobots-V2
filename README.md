@@ -28,11 +28,11 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 :heavy_check_mark: 1- Diseño de armas adaptables en los Sumobots:\
 Para las armas adaptables a los Sumobots se han diseñado inicialmente 2, una para usar con una cuerda y un peso y otra para usar como un martillo.\
 \
-Cadena:\
+__Cadena:__\
 ![cadena](https://github.com/user-attachments/assets/a1d2aff8-8465-49fd-8526-d9fbf55dbb37)\
 \
 \
-Martillo:\
+__Martillo:__\
 ![martillo](https://github.com/user-attachments/assets/45f0744f-5cc6-453e-9ee2-9dcb7221b9e8)\
 \
 El arma de lucha se debe instalar en la parte trasera del Sumobot y ajustarse con gazas plásticas.\
@@ -45,7 +45,7 @@ El arma de lucha se debe instalar en la parte trasera del Sumobot y ajustarse co
 En cuanto al código, este fue programado en CircuitPython, utilizando la herramienta Thonny.\
 Se crearon dos módulos principales, uno para el control remoto y otro para el Sumobot.\
 \
-##Código Control remoto:
+__Código Control remoto:__
 ```
 from ideaboard import IdeaBoard
 from time import sleep
