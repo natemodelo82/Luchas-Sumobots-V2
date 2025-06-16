@@ -50,6 +50,7 @@ __Circuito para el Sumobot:__\
 :heavy_check_mark: __2- Reglas de competencia:__\
 :pushpin: Un enfrentamiento consiste de 3 rondas, cada una de 1 minuto, con 1 minuto para modificaciones entre cada ronda.\
 :pushpin: Cada equipo coloca dos banderas encima del chasís de su sumobot.\
+Las banderas podrían ser tornillos de 3 pulgadas.\
 ![bandera1](https://github.com/user-attachments/assets/9a1f6dfd-07c5-4e98-a182-e5ae09324523)\
 Las banderas se colocan sobre imanes que estarán pegados al chasis del sumobot.\
 ![bandera2](https://github.com/user-attachments/assets/b910fa26-8244-43be-ad79-df616e1105b2)\
