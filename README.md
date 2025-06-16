@@ -68,7 +68,7 @@ Las banderas se colocan sobre imanes que estarán pegados al chasis del sumobot.
 En cuanto al código, este fue programado en CircuitPython, utilizando la herramienta Thonny.\
 Se crearon dos módulos principales, uno para el control remoto y otro para el Sumobot.\
 \
-__Código para averiguar la dirección MAC de un Ideaboard:__\
+__Código para averiguar la dirección MAC de un Ideaboard:__
 ```
 import wifi
 mac_address = wifi.radio.mac_address
