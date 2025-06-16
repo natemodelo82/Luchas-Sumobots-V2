@@ -24,10 +24,10 @@
 Este proyecto pretende diseñar una implementación para habilitar a los Sumobots para una competencia de Luchas de Robots
 El código fue creado con el fin de poder controlar un sumobot por medio del protocolo ESP NOW.\
 Las tarjetas que se utilizaron para el proyecto corresponden con IdeaBoards de CRCibernética.\
-Toda la codificación fue hecha en CircuitPython.\
+Toda la codificación fue hecha en CircuitPython.
 
 Al utilizar el protocolo ESP NOW, se pueden controlar hasta 10 tarjetas Ideaboard por medio de otra tarjeta Ideaboard que funciona como Servidor.\
-Esta conexión se hace por medio de las direcciones MAC de las tarjetas Clientes.\
+Esta conexión se hace por medio de las direcciones MAC de las tarjetas Clientes.
 
 ## :sparkles: Características ##
 
