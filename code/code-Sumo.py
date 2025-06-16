@@ -50,7 +50,7 @@
 #                                                                                                        #
 #                                                                                                        #
 #                                                                                                        #
-#                Código para obtener la Mac Address del IdeaBoard                                               #
+#                Código para obtener la Mac Address del IdeaBoard                                        #
 #                     import wifi                                                                        #
 #                     mac_address = wifi.radio.mac_address                                               #
 #                     print("MAC Address:", mac_address)                                                 #
@@ -181,26 +181,26 @@ def rondaLucha():
             #color RGB
             ib.pixel = ARRIBA
             #activar motores
-            forward(velocidadLucha,tiempoAvanzaLucha)    
+            forward(tiempoAvanzaLucha,velocidadLucha)    
             
                 
         elif ("abajo" in str(mensaje)):
             #color RGB
             ib.pixel = ABAJO
             #activar motores
-            backward(velocidadLucha,tiempoAvanzaLucha)
+            backward(tiempoAvanzaLucha,velocidadLucha)
                 
         elif ("izquierda" in str(mensaje)):
             #color RGB
             ib.pixel = IZQUIERDA
             #activar motores
-            left(velocidadLucha,tiempoGiroLucha)
+            left(tiempoGiroLucha,velocidadLucha)
                 
         elif ("derecha" in str(mensaje)):
             #color RGB
             ib.pixel = DERECHA
             #activar motores
-            right(velocidadLucha,tiempoGiroLucha)        
+            right(tiempoGiroLucha,velocidadLucha)        
             
         elif ("rojo" in str(mensaje)):
             #color RGB

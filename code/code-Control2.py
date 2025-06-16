@@ -2,16 +2,16 @@
 #                                                                                                        #
 #                                                                                                        #
 #                                                                                                        #
-#                                              _____                                                     #
-#                                             /  \  @@  \                                                #
-#                                            /       \ %# @  \                                           #
-#                                           /    (_)    \ % @   \                                        #
-#                                          /         (_)   \ _____                                       #
-#                                         /                /      |                                      #
-#                                         \               /       |                                      #
-#                                           \            /     __ |                                      #
-#                                              \        /     /  |                                       #
-#                                                 \    /-  - -\__/                                       #
+#                                             ______                                                     #
+#                                            /   \  @@  \                                                #
+#                                           /       \ %# @  \                                            #
+#                                          /    (_)    \ % @   \                                         #
+#                                         /         (_)   \ _____                                        #
+#                                        /                /      |                                       #
+#                                        \               /       |                                       #
+#                                          \            /     __ |                                       #
+#                                              \       /     /  |                                        #
+#                                                 \   /-  - -\__/                                        #
 #                                                                                                        #
 #                               ___                       __         ___________                         #
 #                             / ___|| | | |  \/  |/ _ \ | __ )  / _ \__   __/ ___|                       #
@@ -20,9 +20,14 @@
 #                             |____/ \___/|_|  |_|\___/ |____/  \__ /  | |  |____/                       #                                                #
 #                                                                                                        #
 #                                                                                                        #
-#            Control remoto para   SUMOBOTS de lucha                                                     #
+#   Código para el sumobot controlable por ESPNOW, basado en el proyecto  Sumobot Universidad Cenfotec   #
+#                  https://github.com/Universidad-Cenfotec/Sumobot                                       #
 #                                                                                                        #
-#                   Colegio Técnico Profesional de Oreamuno, Informática Empresarial                     #
+#                                                                                                        #
+#                          Colegio Técnico Profesional de Oreamuno                                       #
+#                                    Informática Empresarial                                             #
+#                                    Cibersegurdad                                                       #
+#                                    Informática en Desarrollo Móvil                                     #
 #                                                                                                        #
 #                               Integrantes:                                                             #
 #                                                                                                        #
@@ -30,12 +35,28 @@
 #                                  - Mora Torres Jazmín                                                  #
 #                                  - Ramírez Guzmán Celeste                                              #
 #                                  - Vega Camacho María José                                             #
+#                                  - Guerrero Zelaya Fabian                                              #
+#                                  - Cedeño Guillen Sebastián                                            #                             
+#                                  - Aguilar Aguilar Dereck                                              #
+#                                  - Gómez Garita Nathaly Teresita                                       # 
+#                                  - Segura Alvarado Daniel                                              #
+#                                  - Hidalgo Arce Joshua                                                 #
 #                                                                                                        #  
 #                               Profesor Tutor:                                                          #
 #                                    Ronald Fallas Rojas                                                 #
 #                                                                                                        #
 #                                        Año: 2025                                                       #
 #                                      Versión: 1.0                                                      #
+#                                                                                                        #
+#                                                                                                        #
+#                                                                                                        #
+#                Código para obtener la Mac Address del IdeaBoard                                        #
+#                     import wifi                                                                        #
+#                     mac_address = wifi.radio.mac_address                                               #
+#                     print("MAC Address:", mac_address)                                                 #
+#                                                                                                        #
+#                                                                                                        #
+#                                                                                                        #
 ##########################################################################################################
 
 
@@ -52,7 +73,7 @@ mac_z = b'\x80do\x110<'
 
 mac_a = b'\x08:\x8d\x8e4h'
 mac_b = b'\x80do\x10\xf6\xc0'
-sumo1 = mac_z
+sumo1 = mac_z #reemplazar con la MAC address del sumobot.
 
 
 tiempoEspera = 0.1
