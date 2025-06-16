@@ -225,7 +225,7 @@ tiempoAvanzaLucha = 0.2
 tiempoGiroLucha = 0.2
 
 #Variables para servo motores de lucha
-pwm = PWMOut(board.IO4, duty_cycle=0, frequency=50)
+pwm = PWMOut(board.IO5, duty_cycle=0, frequency=50)
 golpeMotor = servo.Servo(pwm, min_pulse=500, max_pulse=2500)
 tiempoGolpe = 0.5
 golpeMotor.angle = 0
