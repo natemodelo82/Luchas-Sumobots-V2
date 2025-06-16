@@ -50,7 +50,6 @@ __IO27__ para el servo Motor del arma,  __IO33__ para avanzar a la derecha, __IO
 __Circuito para el Sumobot:__\
 ![sumo_lucha](https://github.com/user-attachments/assets/af9e9147-66fa-4b64-8432-643cde02e0bd)
 \
-\
 
 :heavy_check_mark: __2- Reglas de competencia:__\
 :pushpin: Un enfrentamiento consiste de 3 rondas, cada una de 1 minuto, con 1 minuto para modificaciones entre cada ronda.\
