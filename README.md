@@ -82,6 +82,68 @@ print("MAC Address:", mac_address)
 __Código Control remoto:__
 Una vez se tiene la dirección MAC de la tarjeta cliente (Sumobot), se puede agregar al código del Servidor (control)
 ```
+##########################################################################################################
+#                                                                                                        #
+#                                                                                                        #
+#                                                                                                        #
+#                                             ______                                                     #
+#                                            /   \  @@  \                                                #
+#                                           /       \ %# @  \                                            #
+#                                          /    (_)    \ % @   \                                         #
+#                                         /         (_)   \ _____                                        #
+#                                        /                /      |                                       #
+#                                        \               /       |                                       #
+#                                          \            /     __ |                                       #
+#                                              \       /     /  |                                        #
+#                                                 \   /-  - -\__/                                        #
+#                                                                                                        #
+#                               ___                       __         ___________                         #
+#                             / ___|| | | |  \/  |/ _ \ | __ )  / _ \__   __/ ___|                       #
+#                             \___ \| | | | |\/| | | | ||  _ \ | | | | | |  \___ \                       #
+#                              ___) | |_| | |  | | |_| || |_) || |_| | | |   ___) |                      #
+#                             |____/ \___/|_|  |_|\___/ |____/  \__ /  | |  |____/                       #                                                #
+#                                                                                                        #
+#                                                                                                        #
+#   Código para el sumobot controlable por ESPNOW, basado en el proyecto  Sumobot Universidad Cenfotec   #
+#                  https://github.com/Universidad-Cenfotec/Sumobot                                       #
+#                                                                                                        #
+#                                                                                                        #
+#                          Colegio Técnico Profesional de Oreamuno                                       #
+#                                    Informática Empresarial                                             #
+#                                    Cibersegurdad                                                       #
+#                                    Informática en Desarrollo Móvil                                     #
+#                                                                                                        #
+#                               Integrantes:                                                             #
+#                                                                                                        #
+#                                  - Montenegro Araya Manfred                                            #
+#                                  - Mora Torres Jazmín                                                  #
+#                                  - Ramírez Guzmán Celeste                                              #
+#                                  - Vega Camacho María José                                             #
+#                                  - Guerrero Zelaya Fabian                                              #
+#                                  - Cedeño Guillen Sebastián                                            #                             
+#                                  - Aguilar Aguilar Dereck                                              #
+#                                  - Gómez Garita Nathaly Teresita                                       # 
+#                                  - Segura Alvarado Daniel                                              #
+#                                  - Hidalgo Arce Joshua                                                 #
+#                                                                                                        #  
+#                               Profesor Tutor:                                                          #
+#                                    Ronald Fallas Rojas                                                 #
+#                                                                                                        #
+#                                        Año: 2025                                                       #
+#                                      Versión: 1.0                                                      #
+#                                                                                                        #
+#                                                                                                        #
+#                                                                                                        #
+#                Código para obtener la Mac Address del IdeaBoard                                        #
+#                     import wifi                                                                        #
+#                     mac_address = wifi.radio.mac_address                                               #
+#                     print("MAC Address:", mac_address)                                                 #
+#                                                                                                        #
+#                                                                                                        #
+#                                                                                                        #
+##########################################################################################################
+
+
 from ideaboard import IdeaBoard
 from time import sleep
 import board
@@ -89,13 +151,7 @@ import sys
 import espnow #libreria para comunicarse con otro IdeaBoard
 import keypad
 
-mac_x = b'\x08:\x8d\x8e3\xc0'
-mac_z = b'\x80do\x110<'
-
-
-mac_a = b'\x08:\x8d\x8e4h'
-mac_b = b'\x80do\x10\xf6\xc0'
-sumo1 = mac_z    #se debe reemplazar con la MAC address del sumobot a controlar
+sumo1 = b'\x80do\x10\xf6\xc0' #reemplazar con la MAC address del sumobot.
 
 
 tiempoEspera = 0.1
@@ -140,6 +196,7 @@ while True:
             print(event)
 
     sleep(tiempoEspera)
+    
 ```    
 __Código Sumobot de lucha:__
 Este código corresponde con el suministrado por Universidad Cenfotec para la competición de sumobots, pero se agregaron las líneas necesarias para poder conectar al sumobot por medio de ESP NOW al control.
@@ -265,26 +322,26 @@ def rondaLucha():
             #color RGB
             ib.pixel = ARRIBA
             #activar motores
-            forward(velocidadLucha,tiempoAvanzaLucha)    
+            forward(tiempoAvanzaLucha,velocidadLucha)    
             
                 
         elif ("abajo" in str(mensaje)):
             #color RGB
             ib.pixel = ABAJO
             #activar motores
-            backward(velocidadLucha,tiempoAvanzaLucha)
+            backward(tiempoAvanzaLucha,velocidadLucha)
                 
         elif ("izquierda" in str(mensaje)):
             #color RGB
             ib.pixel = IZQUIERDA
             #activar motores
-            left(velocidadLucha,tiempoGiroLucha)
+            left(tiempoGiroLucha,velocidadLucha)
                 
         elif ("derecha" in str(mensaje)):
             #color RGB
             ib.pixel = DERECHA
             #activar motores
-            right(velocidadLucha,tiempoGiroLucha)        
+            right(tiempoGiroLucha,velocidadLucha)        
             
         elif ("rojo" in str(mensaje)):
             #color RGB
@@ -306,6 +363,7 @@ def rondaLucha():
 while True:
     #DERECHA amarillo, IZQUIERDA violeta, ABAJO turquesa, ARRIBA azul, ROJO ataque
     rondaLucha()
+
 
 
 
