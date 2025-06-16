@@ -17,7 +17,7 @@
 #                             / ___|| | | |  \/  |/ _ \ | __ )  / _ \__   __/ ___|                       #
 #                             \___ \| | | | |\/| | | | ||  _ \ | | | | | |  \___ \                       #
 #                              ___) | |_| | |  | | |_| || |_) || |_| | | |   ___) |                      #
-#                             |____/ \___/|_|  |_|\___/ |____/  \__ /  | |  |____/                       #                                                #
+#                             |____/ \___/|_|  |_|\___/ |____/  \__ /  | |  |____/                       #
 #                                                                                                        #
 #                                                                                                        #
 #   Código para el sumobot controlable por ESPNOW, basado en el proyecto  Sumobot Universidad Cenfotec   #
@@ -32,9 +32,10 @@
 #                               Integrantes:                                                             #
 #                                                                                                        #
 #                                  - Montenegro Araya Manfred                                            #
-#                                  - Mora Torres Jazmín                                                  #
+#                                  - Soto Torres Jazmín                                                  #
 #                                  - Ramírez Guzmán Celeste                                              #
 #                                  - Vega Camacho María José                                             #
+#                                  - Aguilar Fonseca Hilary                                              #
 #                                  - Guerrero Zelaya Fabian                                              #
 #                                  - Cedeño Guillen Sebastián                                            #                             
 #                                  - Aguilar Aguilar Dereck                                              #
