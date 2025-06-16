@@ -47,8 +47,16 @@ __Circuito para el Sumobot:__\
 \
 \
 
-:heavy_check_mark: __2- Diseño de reglas de competencia:__\
-
+:heavy_check_mark: __2- Reglas de competencia:__\
+:pushpin: Un enfrentamiento consiste de 3 rondas, cada una de 1 minuto, con 1 minuto para modificaciones entre cada ronda.\
+:pushpin: Cada equipo coloca dos banderas encima del chasís de su sumobot.\
+![bandera1](https://github.com/user-attachments/assets/9a1f6dfd-07c5-4e98-a182-e5ae09324523)\
+Las banderas se colocan sobre imanes que estarán pegados al chasis del sumobot.\
+![bandera2](https://github.com/user-attachments/assets/b910fa26-8244-43be-ad79-df616e1105b2)\
+\
+:pushpin: Se colocan los dos Sumobots en el Dojo de lucha, uno frente al otro.\
+:pushpin: El juez da la orden de salida y cada competidor controla su sumobot.\
+:pushpin: El enfrentamiento tiene una duración de 1 minuto y el ganador será aquel equipo que logre botar la mayor cantidad de banderas.\
 \
 :heavy_check_mark: __3- Codificación de un Luchas-Sumobots-V2 para manejar los sumobots:__\
 En cuanto al código, este fue programado en CircuitPython, utilizando la herramienta Thonny.\
