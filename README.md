@@ -80,6 +80,7 @@ mac_address = wifi.radio.mac_address
 print("MAC Address:", mac_address)
 ```
 __Código Control remoto:__
+Una vez se tiene la dirección MAC de la tarjeta cliente (Sumobot), se puede agregar al código del Servidor (control)
 ```
 from ideaboard import IdeaBoard
 from time import sleep
@@ -141,6 +142,7 @@ while True:
     sleep(tiempoEspera)
 ```    
 __Código Sumobot de lucha:__
+Este código corresponde con el suministrado por Universidad Cenfotec para la competición de sumobots, pero se agregaron las líneas necesarias para poder conectar al sumobot por medio de ESP NOW al control.
 ```
 import board #Librerías para accesar a I/O de la placa
 from ideaboard import IdeaBoard # Librería de funciones varias del ideaboard
