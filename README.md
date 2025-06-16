@@ -40,6 +40,10 @@ El arma de lucha se debe instalar en la parte trasera del Sumobot y ajustarse co
 ![sumolucha2](https://github.com/user-attachments/assets/20fec52a-b542-4dfe-ae99-c59d87a886b8)\
 \
 __Circuito para el control:__\
+Los botones deben estar conectados a GND y al pin de entrada respectivo.\
+Los pines que se utilizaron en esta primer versión fueron:\
+__IO27__ para el servo Motor del arma,  __IO33__ para avanzar a la derecha, __IO32__ para retroceder, __IO25__ para avanzar hacia la izquierda e __IO26__ para avanzar hacia adelante.\
+\
 ![controlIB_bb](https://github.com/user-attachments/assets/56f93af5-e2bf-400e-9bea-a90b8079807b)
 \
 \
