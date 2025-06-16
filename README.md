@@ -78,7 +78,7 @@ mac_z = b'\x80do\x110<'
 
 mac_a = b'\x08:\x8d\x8e4h'
 mac_b = b'\x80do\x10\xf6\xc0'
-sumo1 = mac_z
+sumo1 = mac_z    #se debe reemplazar con la MAC address del sumobot a controlar
 
 
 tiempoEspera = 0.1
