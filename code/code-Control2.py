@@ -17,7 +17,7 @@
 #                             / ___|| | | |  \/  |/ _ \ | __ )  / _ \__   __/ ___|                       #
 #                             \___ \| | | | |\/| | | | ||  _ \ | | | | | |  \___ \                       #
 #                              ___) | |_| | |  | | |_| || |_) || |_| | | |   ___) |                      #
-#                             |____/ \___/|_|  |_|\___/ |____/  \__ /  | |  |____/                       #                                                #
+#                             |____/ \___/|_|  |_|\___/ |____/  \__ /  | |  |____/                       #
 #                                                                                                        #
 #                                                                                                        #
 #   Código para el sumobot controlable por ESPNOW, basado en el proyecto  Sumobot Universidad Cenfotec   #
@@ -32,9 +32,10 @@
 #                               Integrantes:                                                             #
 #                                                                                                        #
 #                                  - Montenegro Araya Manfred                                            #
-#                                  - Mora Torres Jazmín                                                  #
+#                                  - Soto Torres Jazmín                                                  #
 #                                  - Ramírez Guzmán Celeste                                              #
 #                                  - Vega Camacho María José                                             #
+#                                  - Aguilar Fonseca Hilary                                              #
 #                                  - Guerrero Zelaya Fabian                                              #
 #                                  - Cedeño Guillen Sebastián                                            #                             
 #                                  - Aguilar Aguilar Dereck                                              #
@@ -47,6 +48,7 @@
 #                                                                                                        #
 #                                        Año: 2025                                                       #
 #                                      Versión: 1.0                                                      #
+#                                                                                                        #
 #                                                                                                        #
 #                                                                                                        #
 #                                                                                                        #
@@ -67,14 +69,7 @@ import sys
 import espnow #libreria para comunicarse con otro IdeaBoard
 import keypad
 
-mac_x = b'\x08:\x8d\x8e3\xc0'
-mac_z = b'\x80do\x110<'
-
-
-mac_a = b'\x08:\x8d\x8e4h'
-mac_b = b'\x80do\x10\xf6\xc0'
-sumo1 = mac_z #reemplazar con la MAC address del sumobot.
-
+sumo1 = b'\x80do\x10\xf6\xc0' #reemplazar con la MAC address del sumobot.
 
 tiempoEspera = 0.1
 tiempoInicio = 1
