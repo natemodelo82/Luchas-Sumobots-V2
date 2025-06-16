@@ -27,6 +27,7 @@ Este proyecto pretende diseñar una implementación para habilitar a los Sumobot
 
 :heavy_check_mark: __1- Diseño de armas adaptables en los Sumobots:__\
 Para las armas adaptables a los Sumobots se han diseñado inicialmente 2, una para usar con una cuerda y un peso y otra para usar como un martillo.\
+Los movimientos del arma se realizarán por medio de un __Micro servo 9g__.\
 \
 __Cadena:__\
 ![cadena](https://github.com/user-attachments/assets/a1d2aff8-8465-49fd-8526-d9fbf55dbb37)\
